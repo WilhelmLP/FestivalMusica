@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Metal & Indie Festival</title>
+
+    <link rel="stylesheet" type="text/css" href="build/css/app.css" />
+</head>
+
+<body>
+    <header class="header">
+        <div class="contenedor contenido-header">
+            <h1>Metal & Indie Festival</h1>
+            <nav class="navegacion-principal">
+                <a href="#lineup">Line Up</a>
+                <a href="#galeria">Galería</a>
+                <a href="#boletos">Boletos</a>
+            </nav>
+        </div>
+    </header>
+    <!--Fin de Header con barra de navegación-->
+
+    <div class="video">
+        <div class="overlay">
+            <div class="contenedor contenido-video">
+                <h2>Metal & Indie Festival
+                    <span>Octubre 2021, Guanajuato, México</span>
+                </h2>
+            </div>
+        </div>
+        <video controls autoplay muted loop>
+            <source src="video/concierto.mp4" type="video/mp4" />
+            <source src="video/concierto.ogg" type="video/ogg" />
+            <source src="video/concierto.webm" type="video/webm" />
+        </video>
+    </div>
+    <!--Fin de sección con video-->
+
+
+    <div class="contenedor sobre-festival">
+        <div class="imagen">
+            <img src="build/img/imagen_vocalista.webp" alt="imagen vocalista" />
+        </div>
+        <div class="contenido-festival">
+            <h2>Metal & Indie Festival</h2>
+            <p class="fecha">Octubre 2021, Guanajuato, México</p>
+            <p class="parrafo">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste praesentium deserunt
+                delectus aut aspernatur asperiores tempore architecto ea magni consectetur quo quia inventore, ullam
+                porro beatae
+                perspiciatis repellat excepturi quod?
+            </p>
+        </div>
+    </div>
+    <!--Fin de sección encabezado-->
+
+    <section id="lineup" class="lineup">
+        <h3>Line Up</h3>
+        <p class="dia">Viernes 22</p>
+        <div class="escenarios-contenedor contenedor">
+            <div class="escenario rock bg-amarillo">
+                <p class="nombre-escenario">Escenario Rock</p>
+                <ul class="calendario">
+                    <li>24:00 | <span>Metallica</span></li>
+                    <li>22:00 | <span>Megadeth</span></li>
+                    <li>20:00 | <span>Slayer</span></li>
+                    <li>19:00 | <span>Anthrax</span></li>
+                    <li>18:00 | <span>Sodom</span></li>
+                    <li>17:00 | <span>Kreator</span></li>
+                </ul>
+            </div>
+            <div class="escenario edm bg-verde">
+                <p class="nombre-escenario">Escenario Indie</p>
+                <ul class="calendario">
+                    <li>24:00 | <span>M83</span></li>
+                    <li>22:00 | <span>MacDemarco</span></li>
+                    <li>20:00 | <span>MGMT</span></li>
+                    <li>19:00 | <span>Boy Pablo</span></li>
+                    <li>18:00 | <span>Cigarrete After Sex</span></li>
+                    <li>17:00 | <span>Connan Mockasin</span></li>
+                </ul>
+            </div>
+        </div>
+        <p class="dia">Sábado 23</p>
+        <div class="escenarios-contenedor contenedor">
+            <div class="escenario rock bg-amarillo">
+                <p class="nombre-escenario">Escenario Rock</p>
+                <ul class="calendario">
+                    <li>24:00 | <span>Dream Theater</span></li>
+                    <li>22:00 | <span>Cannibal Corpse</span></li>
+                    <li>20:00 | <span>Bolt Thrower</span></li>
+                    <li>19:00 | <span>OverKill</span></li>
+                    <li>18:00 | <span>Ovituary</span></li>
+                    <li>17:00 | <span>Symphony X</span></li>
+                </ul>
+            </div>
+            <div class="escenario edm bg-verde">
+                <p class="nombre-escenario">Escenario Indie</p>
+                <ul class="calendario">
+                    <li>24:00 | <span>Chromatics</span></li>
+                    <li>22:00 | <span>Clario</span></li>
+                    <li>20:00 | <span>Cults</span></li>
+                    <li>19:00 | <span>Cut Copy</span></li>
+                    <li>18:00 | <span>The Drums</span></li>
+                    <li>17:00 | <span>Eels</span></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!--Fin de Lineup-->
+
+    <section id="galeria" class="galeria contenedor">
+        <h3>Galería</h3>
+        <ul class="galeria-imagenes">
+            <!--Todas las imagenes se incertan por medio de JS con funciones-->
+        </ul> 
+    </section>
+
+    <section id="boletos" class="boletos bg-verde">
+        <h3>Boletos</h3>
+
+        <div class="contenedor-boletos contenedor">
+            <div class="basico plan">
+                <p>Pase 1 día</p>
+                <table class="pase">
+                    <thead>
+                        <tr>
+                            <th>Incluye</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Acceso a todos los Escenarios</td>
+                        </tr>
+                        <tr>
+                            <td>Comida y Bebida</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td>$100</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+
+            <div class="premium plan">
+                <p>Pase 2 días</p>
+                <table class="pase">
+                    <thead>
+                        <tr>
+                            <th>Incluye</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Acceso a todos los Escenarios</td>
+                        </tr>
+                        <tr>
+                            <td>Comida y Bebida</td>
+                        </tr>
+                        <tr>
+                            <td>Camisa del evento</td>
+                        </tr>
+                        <tr>
+                            <td>Acceso VIP</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td>$300</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>Metal & Indie Festival - Derechos reservados a Guillermo Linares Pereda  &copy; 2021  </p>
+    </footer>
+
+
+    <script src="build/js/bundle.min.js"></script>
+</body>
+
+</html>
